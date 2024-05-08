@@ -23,3 +23,10 @@ And then run with  `robot electron_test.robot`
 
 If ChromeService is not passed to `Create Webdriver`keyword, somewhat recently added `selenium-manager` hangs your robotframework execution. Using older selenium like 4.0.9 does not have this issue and passing `service` is optional.
 
+At the time of writing repository, following components where used:
+
+* python 3.12
+* robotframework 7.0
+* robotframework-seleniumlibrary 6.3.0
+* selenium 4.2.0
+
